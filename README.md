@@ -3,11 +3,13 @@ Make your IDA Lazy!
 
 This fork merges functionality from [P4nda0s’ fork](https://github.com/P4nda0s/LazyIDA), which has not been updated for 2 years.
 
-Have quickly tested on IDA Pro 9.3.260421
+Have quickly tested on **IDA Pro 9.3.260421**
 
-Please report bug to me!
+The latest internal version of the plugin is `1.1.1-fork` .
 
-> [!NOTE] Why stick to LazyIDA?
+May have bugs. Please report bug to **me**!
+
+> [!NOTE]
 >
 > As the upstream mentioned, this project was written casually 10 years ago.
 > 
@@ -17,7 +19,7 @@ Please report bug to me!
 > - Dump feature: Can be replaced with IDA's built-in `Shift-E`
 > - Format string vulnerability scan: Since Hex-Rays decompiler now supports most common architectures, this feature should be reimplemented using Hex-Rays API for better results
 >
-> But it and its fork do have some QoL functions that I want. So I try to merge functions ;) 
+> But it and its fork do have some QoL functions that I want. So I try to merge them ;) 
 
 ## Installation
 
@@ -31,7 +33,7 @@ Please report bug to me!
 2. Restart IDA.
 3. You should find `LazyIDA ({PLUGIN_VERSION}) plugin has been loaded.` in Output window.
 
-# Features
+## Features
 
 - Functions from [P4nda0s’ fork](https://github.com/P4nda0s/LazyIDA)
 
@@ -63,3 +65,7 @@ Please report bug to me!
       - `w`: Copy address of current item into clipboard
       - `c`: Copy name of current item into clipboard
       - `v`: Remove return type of current item
+
+## License
+
+LazyIDA is licensed under [MIT license](https://mit-license.org/). See [LICENSE](./LICENSE) for detail.
