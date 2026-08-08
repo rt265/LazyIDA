@@ -11,13 +11,7 @@ May have bugs. Please report bug to **me**!
 
 > [!NOTE]
 >
-> As the upstream mentioned, this project was written casually 10 years ago.
-> 
-> Many features are now outdated or built-in:
->
-> - Remove return type: Built-in since IDA Pro 7.5+
-> - Dump feature: Can be replaced with IDA's built-in `Shift-E`
-> - Format string vulnerability scan: Since Hex-Rays decompiler now supports most common architectures, this feature should be reimplemented using Hex-Rays API for better results
+> As the upstream mentioned, this project was written casually 10 years ago by [Lays](https://github.com/L4ys). Many features are now outdated or built-in.
 >
 > But it and its fork do have some QoL functions that I want. So I try to merge them ;) 
 
